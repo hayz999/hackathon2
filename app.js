@@ -36,6 +36,12 @@ function buildMovieCard (response) {
     poster.classList.add('card-img-top')
     movieCard.appendChild(poster)
 
+
+    const redirect = document.createElement('a')
+    redirect.textContent = 'Watch Now'
+    redirect.href = response.Website
+    movieCard.appendChild(redirect)
+
     const textContainer = document.createElement('div')
     textContainer.classList.add('card-body')
     movieCard.appendChild(textContainer)
