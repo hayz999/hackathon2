@@ -19,6 +19,7 @@ main {
     justify-content: center;
     padding-top: 10px;
     background-color: #33312e;
+    
 }
 
 #movie {
@@ -30,5 +31,5 @@ main {
 
 footer {
     padding: 10px;
-    height: inherit;
+    height: 20px;
 }
