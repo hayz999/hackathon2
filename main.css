@@ -12,22 +12,17 @@ ul {
     list-style-type: none;
 }
 
-li {
-    text-decoration: none;
-    border: 1px solid black;
-    padding: 5px;
-    background-color: white;
-    border-radius: 4px;
-}
 
 main {
     text-align: center;
     display: flex;
     justify-content: center;
+    padding-top: 10px;
 }
 
 #movie {
     display: flex;
     justify-content: center;
     padding: 10px;
+    flex-wrap: wrap;
 }
