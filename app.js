@@ -1,14 +1,19 @@
-// var twilightURL = 'http://www.omdbapi.com/?t=twilight&apikey=1b2149ae'
-// var roomURL = 'http://www.omdbapi.com/?t=the+room&apikey=1b2149ae'
-var url = 'http://www.omdbapi.com/?t=jack+and+jill&apikey=1b2149ae'
+var twilightURL = 'http://www.omdbapi.com/?t=kazaam&apikey=1b2149ae'
+var roomURL = 'http://www.omdbapi.com/?t=battlefield+earth&apikey=1b2149ae'
+var jackJill = 'http://www.omdbapi.com/?t=jack+and+jill&apikey=1b2149ae'
+var lastAir = 'http://www.omdbapi.com/?t=the+last+airbender&apikey=1b2149ae'
 
 
-
+function getMovie(url) {
 fetch(url)
 .then(response => response.json())
  
 .then(response => buildMovieCard(response))
-
+}
+getMovie(jackJill)
+getMovie(twilightURL)
+getMovie(roomURL)
+getMovie(lastAir)
 
 
 function buildMovieCard (response) {
