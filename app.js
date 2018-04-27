@@ -1,11 +1,11 @@
-var twilightURL = 'http://www.omdbapi.com/?t=kazaam&apikey=1b2149ae'
-var roomURL = 'http://www.omdbapi.com/?t=battlefield+earth&apikey=1b2149ae'
-var jackJill = 'http://www.omdbapi.com/?t=jack+and+jill&apikey=1b2149ae'
-var lastAir = 'http://www.omdbapi.com/?t=the+last+airbender&apikey=1b2149ae'
-var jaws = 'http://www.omdbapi.com/?t=jaws:+the+revenge&apikey=1b2149ae'
-var emoji = 'http://www.omdbapi.com/?t=the+emoji+movie&apikey=1b2149ae'
-var rings = 'http://www.omdbapi.com/?t=rings&apikey=1b2149ae'
-var disaster = 'http://www.omdbapi.com/?t=disaster+movie&apikey=1b2149ae'
+var twilightURL = 'https://www.omdbapi.com/?t=kazaam&apikey=1b2149ae'
+var roomURL = 'https://www.omdbapi.com/?t=battlefield+earth&apikey=1b2149ae'
+var jackJill = 'https://www.omdbapi.com/?t=jack+and+jill&apikey=1b2149ae'
+var lastAir = 'https://www.omdbapi.com/?t=the+last+airbender&apikey=1b2149ae'
+var jaws = 'https://www.omdbapi.com/?t=jaws:+the+revenge&apikey=1b2149ae'
+var emoji = 'https://www.omdbapi.com/?t=the+emoji+movie&apikey=1b2149ae'
+var rings = 'https://www.omdbapi.com/?t=rings&apikey=1b2149ae'
+var disaster = 'https://www.omdbapi.com/?t=disaster+movie&apikey=1b2149ae'
 
 
 function getMovie(url) {
