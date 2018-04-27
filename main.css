@@ -1,0 +1,33 @@
+body {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+li {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+main {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#movie {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
