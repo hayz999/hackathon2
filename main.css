@@ -18,6 +18,7 @@ main {
     display: flex;
     justify-content: center;
     padding-top: 10px;
+    background-color: #33312e;
 }
 
 #movie {
@@ -25,4 +26,9 @@ main {
     justify-content: center;
     padding: 10px;
     flex-wrap: wrap;
+}
+
+footer {
+    padding: 10px;
+    height: inherit;
 }
